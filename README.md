@@ -178,7 +178,7 @@ createServer((req, res) => {
 
 В браузере мы ждем, пока все дочерние компоненты `Route` не зарегистрируются со своим предком компонентом `Router`, прежде чем мы позволим `Router` выбрать лучшее совпадение. Такой подход невозможен на сервере, потому что когда все компоненты `Route` зарегистрированы и настало время выбрать совпадение, SSR уже завершено, и документ без совпадения маршрута будет возвращен.
 
-We therefore resort to picking the first matching `Route` that is registered on the server, so it is of utmost importance that you `sort your Route components from the most specific to the least specific if you are using SSR`.
+Поэтому мы прибегаем к выбору первого совпадения `Рута`, который зарегистрирован на сервере, поэтому крайне важно, чтобы вы `сортировал ваши компоненты Маршрута от самых специфических до наименее специфических, если вы используете SSR`.
 
 [npm]: https://img.shields.io/npm/v/svelte-routing.svg
 [npm-url]: https://npmjs.com/package/svelte-routing
