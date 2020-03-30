@@ -1,12 +1,12 @@
 [![npm][npm]][npm-url]
 
-# Svelte Routing по-русски
+# Svelte Routing
 
 Декларативная библиотека маршрутизации Svelte с поддержкой SSR.
 
 ## Начало работы
 
-Посмотрите [example folder][example-folder-url] на для примера настройки проекта.
+Посмотрите [example folder][example-folder-url] на пример настройки маршрутизации проекта.
 ## Установить
 
 ```bash
